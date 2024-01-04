@@ -1,11 +1,12 @@
-import "./App.css";
+import Body from "./Pages/Body.jsx";
 import Header from "./components/Header/Header.jsx";
+
 function App() {
   return (
     <>
-      <div className="container">
+      <div className="block ">
         <Header />
-        <div className="container-view">Some activities should be here</div>
+        <Body />
       </div>
     </>
   );
