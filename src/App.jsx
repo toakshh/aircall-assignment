@@ -3,12 +3,10 @@ import Header from "./components/Header/Header.jsx";
 
 function App() {
   return (
-    <>
-      <div className="block ">
-        <Header />
-        <Body />
-      </div>
-    </>
+    <div className="block">
+      <Header />
+      <Body />
+    </div>
   );
 }
 
